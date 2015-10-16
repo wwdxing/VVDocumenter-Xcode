@@ -35,6 +35,11 @@
     return instance;
 }
 
+-(void)dealloc
+{
+    
+}
+
 - (id)init {
     if (self = [super init]) {
         [[NSNotificationCenter defaultCenter] addObserver:self
